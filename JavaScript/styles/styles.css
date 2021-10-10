@@ -36,14 +36,26 @@ button {
     border: none;
     background: #fff;
     padding: 10px 5px;
-    margin-bottom: 10px;
+    margin: 0px 10px;
     color: black;
     font-weight: 700;
     width: 200px;
     border-radius: 5px;
     transition: 0.25s;
+
 }
 #increment-btn:hover{
     background: black;
     color: #fff;
+}
+
+#save-btn:hover{
+    background: black;
+    color: #fff;
+}
+
+#save-el {
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 500;
 }
